@@ -1,1 +1,17 @@
-Hi
+#include <iostream>
+
+using namespace std;
+
+namespace World
+{
+    class HelloWord
+    {
+    public:
+	void hello();
+    }
+};
+
+void World::HelloWorld::hello()
+{
+    cout << "Hello World!" << endl;
+}
